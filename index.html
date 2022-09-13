@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tom Defoort, projet alternance</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+    <body >
+			<!-- Header -->
+				<section id="header">
+					<!-- Logo -->
+						<div id="logo">
+							<h1>Le deux forts</h1>
+							<p>Les règles officiels du jeu de cartes.</p> 
+						</div>
+				</section>
+
+			<!-- Concept -->
+				<section id="concept">
+					<div class="title">Concept</div>
+					<div class="container">
+						<p>Le "deux forts" est un jeu de stratégie qui se joue de 2 à 4 joueurs avec un paquet de 52 cartes. <br />
+                            Chaque joueur va créer "deux forts" avec ses cartes et devra essayer de les conserver en détruisant
+                            ceux de ses adversaires. </p> <br />
+                        <img src="image lesforts.jpg" alt="image d'une partie" title="partie en cours" />
+					</div>
+				</section> 
+           	<!-- Début de partie -->
+				<section id="gamestart">
+					<div class="title">Début de partie</div>
+					<div class="container">
+                        <h2>Les différentes étapes</h2>
+                        <div class="listing">
+                               <div class="list-element">
+                                    <section>
+                                        <h3 class="list-title">1</h3>
+                                        <p> Chaque joueur choisit une couleur (pique, carreau etc) et aura ensuite les cartes de sa couleur.
+                                            Les cartes ont toutes une valeur, de 1 à 13. As = 1 Valet, Dame, Roi = 11, 12, 13
+                                            (en cas de partie à 2 ou 3 joueurs, les cartes des couleurs non choisies sont sorties du jeu)
+                                        </p>
+                                    </section>
+                                </div>
+                                <div class="list-element">
+                                    <section>
+                                        <h3 class="list-title">2</h3>
+                                        <p>  Un tirage au sort est effectué pour savoir qui commence la partie.
+                                             Elle se déroulera ensuite au tour par tour dans le sens des aiguilles d'une montre.
+                                             Avant le début du tour par tour, mais une fois le tirage au sort effectué, chaque joueur construit
+                                             "deux forts" devant lui.
+                                        </p>
+                                    </section>
+                                </div>
+                                <div class="list-element">
+                                    <section>
+                                        <h3 class="list-title">3</h3>
+                                        <p>  Un fort d'une valeur de 6 à sa gauche et un fort d'une valeur de 12 à droite.
+                                             On peut par exemple poser la carte 6 et 12 devant soi. Ou 4/2 et 7/5 par exemple.
+                                             (les forts de 3 cartes peuvent exister, mais ne sont pas recommandés)
+                                             Une fois, les forts posés, le tour par tour peut débuter.
+                                             On ne peut jouer que deux cartes de sa main par tour.
+                                        </p>
+                                    </section>
+                                </div>
+                                <div class="list-element">
+                                    <section>
+                                        <h3 class="list-title">4</h3>
+                                        <p> Il y a deux manières de jouer une carte :
+                                            Soit face visible, pour attaquer un fort ou renforcer son fort.
+                                            Soit jouer une carte face cachée pour préparer une attaque ou préparer un renforcement.
+                                            Les joueurs ne peuvent détruire qu'un seul fort à leur premier tour.  
+                                        </p>
+                                    </section>
+                                </div>
+                        </div>
+					</div>
+				</section>
+            <!-- Les cartes faces cachées -->
+				<section id="cartescachées">
+					<div class="title">Cartes faces cachées</div>
+					<div class="container">
+						<p>Les cartes faces cachées sont intouchables par les autres joueurs. <br />
+                            Elles ne peuvent pas être activées au tour où elles sont posées.<br />
+                            Au tour suivant par contre, on pourra les activer en plus des deux cartes de notre main.<br />
+                            Elles peuvent être activées comme supplément d'attaque ou de défense.<br />
+                            On doit toujours révéler les cartes faces cachées en même temps s'il y en a plusieurs cumulées.<br />
+                            On peut mener une attaque sur un fort sur lequel on a préparé des cartes cachées sans les utiliser.<br />
+                            On ne peut cumuler que deux cartes faces cachées par fort que ce soit en attaque ou en défense.<br />
+                            On ne peut pas poser de cartes faces cachées s'il n'y a pas de fort.<br />
+                            On ne peut pas revoir ses cartes faces cachées avant de les utiliser.<br />
+                            Si un fort est détruit sans que notre carte face cachée soit dévoilée, elle reste jusqu'à sa<br />
+                            reconstruction potentielle. Si le joueur sur lequel elle est placée perd la partie, elle va au cimetière.<br />
+                            (faire pointer les cartes d'attaques faces cachées vers soi, aide visuelle durant la partie)</p>
+					</div>
+				</section>
+           	<!-- Les forts -->
+               <section id="lesforts">
+                    <div class="title">Les forts</div>
+                    <div class="container">
+                        <p> Un fort ne peut être qu'un multiple de 2, les renforcements ne peuvent donc s'effectuer que si on <br />
+                            tombe pile sur un multiple. Il ne peut jamais être inférieur à sa valeur de base (6 ou 12).<br />
+                            Vous pouvez par exemple ajouter un 4 à votre fort de 6 et le transformer en fort de 10.<br />
+                            Si votre fort de 6 est détruit, vous ne pouvez pas commencer par reconstruire un fort de 4.<br />
+                            Si vos cartes de renforcement ne sont pas toutes des multiples de 2, mais assemblées elles en<br />
+                            forment un, c'est bon. Si un de vos renforcements impairs est détruit, l'effet de l'autre est annulé.<br />
+                            Si une seule des deux cartes est un multiple, seul celle-ci compte.<br />
+                            Il ne peut y avoir que deux cartes de renforcement sur un fort, y compris avec les cartes cachées.<br />
+                            On ne peut renforcer que son propre fort.<br />
+                            Quand il y a reconstruction d'un fort, on doit obligatoirement d'abord le créer à sa valeur de base<br />
+                            avant de le renforcer. (ex : on ne peut pas créer un fort de 12 avec un 10 et 4) </p>
+                       <figure>
+                            <img src="image lesforts.jpg" alt="image de forts" title="des forts attaqués" />
+                            <figcaption>En bas à gauche : un fort de 6 avec deux renforcements cachés, attaqué par un combo valet 9. <br/>
+                                        En bas à droite : un fort de 12 avec un renforcement de 10, sur lequel se trouve une carte face
+                                        cachée ennemie prête à attaquer ultérieurement. </figcaption>
+                        </figure>
+                    </div>
+                </section>
+            <!-- Les attaques -->
+            <section id="lesattaques">
+                <div class="title">Les attaques</div>
+                <div class="container">
+                            <section class="attaques">
+                                <img src="image lesforts.jpg" alt="premier cas d'attaque" /> <br />
+                                <h3>Lancer une attaque</h3> <br />
+                                <p> On peut lancer une attaque si elle peut détruire un fort, sans compter les renforcements cachés ou
+                                    visibles. (ex : il faut une attaque d'au moins 12 pour attaquer le fort de 12)
+                                    Si une attaque est lancée sur un fort qui a des cartes faces cachées, les cartes se dévoilent alors et
+                                    viennent renforcer le fort si elles peuvent faire un multiple de 2. Si une seule des cartes
+                                    renforcements permet un multiple de 2, seul celle-ci compte. Les invalides seront récupérées par
+                                    l'attaquant en cas d'attaques réussies.                                  
+                                 </p>
+                            </section>
+
+                            <section class="attaques">
+                                <img src="image lesforts.jpg" alt="deuxième cas d'attaque" /> <br />
+                                <h3>Les aléas</h3> <br />
+                                <p> 
+                                    Si l'attaque devient inférieure au fort avec les renforcements révélés, le fort n'est pas détruit.
+                                    Si l'attaque est inférieure aux renforcements, les cartes d'attaques vont dans la main du défenseur.
+                                    Si l'attaque est supérieure uniquement au renforcement, les renforcements sont détruits.
+                                    Les cartes du renforcement vont alors dans la main de l'attaquant, mais ses cartes attaques vont au
+                                    cimetière à la fin du tour.
+                                    Une fois les renforcements révélés, une attaque peut choisir d'en cibler un des deux.
+                                    (si elle reste supérieure à la valeur du fort sur lequel elle se trouve)
+                                </p>                                
+                            </section>
+                </div>
+           </section>
+           	<!-- Si un fort est détruit -->
+				<section id="fortdétruit">
+					<div class="title">Si un fort est détruit</div>
+					<div class="container">
+						<p>Le défenseur pioche alors une carte du cimetière pour l'ajouter dans sa main. (offrande des dieux)
+                            Si le cimetière n'a pas assez de cartes, il pioche son dû au hasard dans la main de l'attaquant.
+                            Ensuite, l'attaquant reçoit alors les cartes du fort vaincu, renforcements compris.
+                            Il a alors deux options, recevoir deux cartes du cimetière (ou de la main de l'adversaire si le
+                            cimetière est vide) ou avoir une carte et un coup en plus.
+                            La décision doit être prise avant de commencer à piocher.
+                            Seulement à la fin du tour, les cartes qui ont servi à l'attaque vont au cimetière, pour ne pas être
+                            ramassées durant les pioches du tour. L'attaquant enterre ses soldats dans l'ordre qu'il souhaite.
+                            Il peut choisir ou non de montrer l'ordre des cartes qu'il envoie au cimetière.
+                            Elles y sont ensuite posées faces cachées.</p>
+                        <aside class="autodestruction">
+                            <h2>Autodestruction de fort</h2>
+                            <p>On peut choisir de détruire son propre fort ! (Uniquement, si on en a deux)
+                                On récupère alors nos cartes "forts" et deux cartes du cimetière s'il y en a. Ou une carte et un coup
+                                en plus. On ne peut pas récupérer chez un autre joueur.
+                                Nos cartes d'attaques vont au cimetière à la fin du tour.
+                                Des cartes faces cachées peuvent servir à attaquer notre fort, mais elles doivent toutes être
+                                engagées dans la destruction. On ne peut pas en garder de côté.
+                                Si des cartes ont déjà été utilisées comme renforcement, elles ne peuvent être utilisées pour
+                                détruire son fort.
+                                </p>
+                        </aside>
+					</div>
+				</section>
+
+           	<!-- La fin de partie -->
+				<section id="findepartie">
+					<div class="title">La fin de partie</div>
+					<div class="container">
+						<p> Un fort peut toujours être reconstruit, aucun joueur n'est éliminé tant qu'il a des cartes en mains.
+                            Cependant, il doit au moins avoir un fort de construit pour pouvoir mener des actions.
+                            (y compris retourner des cartes faces cachées.)
+                            S'il ne peut plus reconstruire de fort, il a perdu et pose alors ses cartes restantes au cimetière dans
+                            l'ordre qu'il souhaite (après que les cartes faces cachées posées sur lui soient au cimetière).
+                            S'il ne peut plus attaquer ou renforcer, il passe son tour.
+                            Il faut avoir un fort pour avoir le droit de passer son tour ou de ne pas jouer tous nos coups.
+                            Si aucun joueur ne peut plus effectuer d'actions, le gagnant est celui avec le plus de forts.
+                            Si les joueurs ont le même nombre de forts, le plus gros fort des deux gagne la partie.
+                            Si même nombre de forts, du même niveau et plus de possibilités de jouer : match nul.</p>
+					</div>
+				</section>               
+		        
+                <!-- Footer -->
+				<section id="footer">
+					<div class="title">Et maintenant ?</div>
+					<div class="container">
+						<header class="header">
+							<h2>Faites des retours sur le jeu !</h2>
+							<p>
+								Vous pouvez envoyer vos remarques ou vos questions sur le jeu directement au créateur via ce formulaire :
+							</p>
+						</header>
+                        	<!-- Formulaire-->
+								<section class="gridform">
+									<form method="post" action="#">
+                                                <input type="text" name="name" id="nom" placeholder="Nom" class="formstyle"/>
+                                                <input type="text" name="email" id="mail" placeholder="Email" class="formstyle" />
+                                                <textarea cols="30" rows="30" name="message" id="message" placeholder="Message" class="formstyle"></textarea>
+                                                <input type="submit" class="bouton1" value="Send" />
+                                                <input type="reset" class="bouton2" value="Reset" />			
+									</form>
+								</section>
+					</div>
+						<div id="copyright">
+							<ul>
+								<li>&copy;Tom Defoort</li>
+                                <li>Pour l'alternance OpenClassrooms</li>
+                                <li>Téléphone : 07 70 17 68 33</li>
+                                <li>Mail : tom.defoortpro@gmail.com</li>
+							</ul>
+						</div>
+				</section>
+
+		
+
+	</body>
+</html>

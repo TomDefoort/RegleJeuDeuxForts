@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0%;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+	vertical-align: baseline;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+
+/***********Le Header********/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 35em;
+    background-color: #11151C;
+    padding: 0;
+}
+/* Logo */
+#logo {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+    #logo h1 {
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #7D4E57;
+        font-size: 2em;
+    }
+
+    #logo p {
+        color: #364156;
+        text-transform: uppercase;
+        margin: 1em 0 0 0;
+        display: block;
+        font-size: 1em;
+    }
+/************Les titres*********/
+.title {
+        position: absolute;
+        margin-top: -1%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #11151C;
+        color: #D66853;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 20%;
+        box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.185);
+        padding: 0.5%;
+        width: 15%;
+    }
+
+/*****Balises container  *****/
+.container {
+	text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 35em;
+    padding: 0;
+}
+.container p{
+    text-align: justify;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+/* Concept*/
+#concept {
+    background-color: #7D4E57;
+}
+    #concept p{
+        margin-top: 20px;
+        color:#212c42;
+        font-size: 1em;
+    }
+    #concept img{
+            width: 20%;
+            box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.11);
+            border-radius: 10%;
+    }
+    #concept .container{
+        padding-top: 1%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center; 
+    }
+
+/****début de partie*****/
+#gamestart{
+    background-color: #11151C;
+}
+
+    #gamestart p{
+        color: #7D4E57;
+        font-size: 0.80em;
+        width: 80%;
+    }
+    #gamestart h2{
+        color: #7D4E57;
+        font-size: 1em;
+        padding: 2%;
+
+    }
+.listing {
+    height: 80%;
+    position: relative;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.list-element{
+    height: 80%;
+    width: 20%;
+    text-align: center;
+    padding: 2%;
+}
+
+.list-title{
+    font-size: 1.5em;
+    color:#D66853;
+    padding: 5%;
+}
+
+/* Les cartes faces cachées*/
+#cartescachées {
+    background-color: #7D4E57;
+}
+    #cartescachées p{
+        padding-top: 8%;
+        padding-left: 10%;
+        color: #212c42;
+        font-size: 0.80em;
+    }
+
+/* Les forts*/
+#lesforts {
+    background-color: #11151C;
+}
+    #lesforts p{
+        margin-top: 1%;
+        padding-left: 10%;
+        color:#7D4E57;
+        font-size: 0.80em;
+    }
+    #lesforts img{
+        width: 10%;
+        box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.11);
+        border-radius: 10%;
+    }
+    #lesforts .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: stretch; 
+    }
+figure{
+    margin-top: -2%;
+}
+figcaption{
+    color: white;
+    font-size: 0.80em;
+    text-align: justify;
+    padding-left: 25%;
+}
+/*******Les attaques**********/
+#lesattaques {
+    background-color: #7D4E57;
+}
+    #lesattaques p{
+        color: #212c42;
+        font-size: 0.80em;
+        width: 80%;
+    }
+    #lesattaques img{
+            width: 35%;
+            box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.11);
+            border-radius: 10%;
+    }
+    #lesattaques .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+        align-content: center;
+    }
+    .attaques {
+        height: 80%;
+        width: 40%;
+        text-align: center;
+        padding: 2%;
+    }
+
+/*****Si un fort est détruit*****/
+#fortdétruit {
+    background-color: #11151C;
+}
+    #fortdétruit p{
+        margin-top: 20px;
+        color:#7D4E57;
+        font-size: 0.80em;
+    }
+    #fortdétruit h2{
+        color: #D66853;
+        font-size: 1em;
+        padding: 1%;
+    }
+    #fortdétruit .container{
+        padding: 2%;
+    }
+
+aside {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 60%;
+    background-color: #364156;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    padding: 5px;
+    color: #212D40;
+    font-size: 1em;
+} 
+
+
+/*****La fin de partie*****/
+#findepartie {
+    background-color: #7D4E57;
+}
+
+    #findepartie p{
+        padding-top: 5%; 
+        color: #212c42;
+        font-size: 0.80em;
+        width: 80%;
+    }
+
+/******Footer*****/
+#footer{
+    background-color: #11151C;
+}
+    #footer h2{
+        color: #7D4E57;
+        font-size: 1em;
+        padding: 5%;
+    }
+    #footer p{
+        padding-top: 1%;
+        text-align: center;
+        color: white;
+        font-size: 0.80em;
+        width: 80%;
+    }
+
+/****************Le formulaire**************/
+.gridform{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "i1 i2"
+        "ta ta"
+        "bt1 bt2";
+}
+
+#nom{
+    grid-area: i1;
+}
+
+#mail{
+    grid-area: i2;
+}
+
+textarea{
+    grid-area: ta;
+    resize: none;
+}
+
+input[type="submit"]{
+    grid-area: bt1;
+}
+
+input[type="reset"]{
+    grid-area: bt2;
+}
+
+.formstyle, .bouton1, .bouton2 {
+    margin: 5px;
+    height: 45px;
+    border: 2px solid #7D4E57;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Copyright */
+
+#copyright {
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: solid 1px rgba(255, 255, 255, 0.05);
+}
+
+    #copyright ul {
+        display: inline-block;
+        border-radius: 0.35em;
+        box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
+        color: #aaa;
+        color: rgba(255, 255, 255, 0.25);
+        padding: 0.75em 2em;
+        font-size: 0.9em;
+    }
+
+        #copyright ul li {
+            display: inline-block;
+            margin-left: 1em;
+            padding-left: 1em;
+            border-left: solid 1px #333;
+            border-left-color: rgba(241, 234, 234, 0.226);
+        }
+
+            #copyright ul li:first-child {
+                border-left: 0;
+                margin-left: 0;
+                padding-left: 0;
+            }
+
+
+@media all and (max-width: 1024px) {
+    .container{
+        height: 75%;
+    }
+    .container p{
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .title {
+        position: relative;
+    }
+    #concept .container{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #cartescachées p{
+        padding-top: 0%;
+        padding-left: 0%;
+        color: white;
+        font-size: 0.80em;
+    }
+    #lesforts p{
+        margin-top: 0%;
+        padding-left: 0%;
+    }
+    .listing {
+        height: 80%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+    .list-element{
+        width: 70%;
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "i1"
+            "i2"
+            "ta" 
+            "ta"
+            "bt1" 
+            "bt2";
+    }
+}   
